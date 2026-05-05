@@ -33,7 +33,7 @@ app.use(express.json({ limit: '10mb' }));
 // MongoDB Connection with better error handling
 const connectDB = async () => {
   try {
-    await mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://aquib:aquib123@aquib.je4kszd.mongodb.net/hotel_db?appName=munday", {
+    await mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://aryankaushik541_db_user:I0XrbTYU2AuPZyKq@cluster0.nyatkir.mongodb.net/hotel_db?appName=munday", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
