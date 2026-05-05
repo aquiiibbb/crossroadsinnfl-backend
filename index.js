@@ -12,8 +12,8 @@ const corsOptions = {
     'http://localhost:3001',
     'http://localhost:5173', // Vite
     // Production - Your actual domains
-    'https://hollisterinn-feedback.vercel.app',
-    'https://hollisterinn-dashboard.vercel.app'
+    'https://crossroadsinnfl.vercel.app',
+    'https://crossroadsinnfl-dashboard.vercel.app'
   ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
